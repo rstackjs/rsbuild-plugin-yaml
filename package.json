@@ -1,6 +1,6 @@
 {
 	"name": "@rsbuild/plugin-yaml",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"repository": "https://github.com/rstackjs/rsbuild-plugin-yaml",
 	"license": "MIT",
 	"type": "module",
