@@ -46,7 +46,7 @@
 		"yaml-loader": "^0.8.1"
 	},
 	"peerDependencies": {
-		"@rsbuild/core": "1.x"
+		"@rsbuild/core": "^1.0.0 || ^2.0.0-0"
 	},
 	"peerDependenciesMeta": {
 		"@rsbuild/core": {
