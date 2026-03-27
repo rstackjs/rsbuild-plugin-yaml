@@ -32,13 +32,13 @@ export default {
 
 ## Example
 
-Suppose the project has the following code in `example.yaml`:
+Suppose `example.yaml` contains:
 
 ```yaml title="example.yaml"
-hello = "world"
+hello: world
 
-[foo]
-bar = "baz"
+foo:
+  bar: baz
 ```
 
 After using the YAML plugin, you can reference it as follows:
