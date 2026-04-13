@@ -41,7 +41,7 @@
     "@rsbuild/core": "^1.7.5",
     "@rslib/core": "^0.21.0",
     "@types/node": "^24.12.2",
-    "nano-staged": "^0.9.0",
+    "nano-staged": "^1.0.2",
     "playwright": "^1.59.1",
     "prebundle": "^1.6.4",
     "simple-git-hooks": "^2.13.1",
