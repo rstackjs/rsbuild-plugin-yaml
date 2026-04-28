@@ -23,7 +23,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginYaml } from "@rsbuild/plugin-yaml";
+import { pluginYaml } from '@rsbuild/plugin-yaml';
 
 export default {
   plugins: [pluginYaml()],
@@ -44,7 +44,7 @@ foo:
 After using the YAML plugin, you can reference it as follows:
 
 ```js
-import example from "./example.yaml";
+import example from './example.yaml';
 
 console.log(example.hello); // 'world';
 console.log(example.foo); // { bar: 'baz' };
@@ -55,11 +55,11 @@ console.log(example.foo); // { bar: 'baz' };
 When you import YAML files in TypeScript code, please create a `src/env.d.ts` file in your project and add the corresponding type declarations.
 
 ```ts
-declare module "*.yml" {
+declare module '*.yml' {
   const content: Record<string, any>;
   export default content;
 }
-declare module "*.yaml" {
+declare module '*.yaml' {
   const content: Record<string, any>;
   export default content;
 }
