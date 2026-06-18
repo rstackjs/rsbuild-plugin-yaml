@@ -2,6 +2,10 @@
   "name": "@rsbuild/plugin-yaml",
   "version": "1.0.5",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-yaml",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-yaml#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-yaml/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
