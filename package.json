@@ -1,11 +1,11 @@
 {
   "name": "@rsbuild/plugin-yaml",
   "version": "1.0.5",
-  "repository": "https://github.com/rstackjs/rsbuild-plugin-yaml",
   "homepage": "https://github.com/rstackjs/rsbuild-plugin-yaml#readme",
   "bugs": {
     "url": "https://github.com/rstackjs/rsbuild-plugin-yaml/issues"
   },
+  "repository": "https://github.com/rstackjs/rsbuild-plugin-yaml",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -20,15 +20,18 @@
   ],
   "scripts": {
     "build": "rslib",
+    "bump": "pnpx bumpp",
     "dev": "rslib -w",
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
     "prepare": "simple-git-hooks",
-    "test": "playwright test",
-    "bump": "pnpx bumpp"
+    "test": "playwright test"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm run lint:write"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
