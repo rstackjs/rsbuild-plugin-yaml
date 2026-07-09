@@ -16,8 +16,7 @@
   },
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "compiled"
+    "dist"
   ],
   "scripts": {
     "build": "rslib",
