@@ -20,7 +20,7 @@
     "compiled"
   ],
   "scripts": {
-    "build": "rslib && prebundle",
+    "build": "rslib",
     "dev": "rslib -w",
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
@@ -38,7 +38,6 @@
     "@rslint/core": "^0.6.4",
     "@types/node": "^24.13.2",
     "playwright": "^1.61.1",
-    "prebundle": "^1.6.5",
     "prettier": "^3.9.4",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3",
