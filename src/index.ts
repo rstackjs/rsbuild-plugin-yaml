@@ -17,7 +17,7 @@ export const pluginYaml = (): RsbuildPlugin => ({
         .type('javascript/auto')
         .test(/\.ya?ml$/)
         .use('yaml')
-        .loader(join(__dirname, '../compiled', 'yaml-loader'));
+        .loader(join(__dirname, 'loader.js'));
     });
   },
 });
