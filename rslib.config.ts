@@ -8,4 +8,7 @@ export default defineConfig({
       loader: './src/loader.ts',
     },
   },
+  output: {
+    externals: ['yaml'],
+  },
 });
